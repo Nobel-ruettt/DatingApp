@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using DatingApp.Data;
 using DatingApp.Dtos;
 using DatingApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
