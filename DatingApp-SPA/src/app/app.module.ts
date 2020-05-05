@@ -28,6 +28,7 @@ import { appRoutes } from './routes';
 import { JwtModule } from '@auth0/angular-jwt';
 import { FileUploadModule } from 'ng2-file-upload';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { TimeAgoPipe } from 'time-ago-pipe';
 
 
 
@@ -46,6 +47,7 @@ export function tokenGetter(){
       MessagesComponent,
       MemberCardComponent,
       MemberDetailComponent,
+      TimeAgoPipe,
       MemberEditComponent,
       PhotoEditorComponent
    ],
